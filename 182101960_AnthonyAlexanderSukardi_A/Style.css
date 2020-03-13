@@ -1,0 +1,155 @@
+body {
+	font-family: arial;
+	font-size: 12px;
+	margin: 0px;
+}
+#wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+#container {
+	background-color: #fff;
+}
+header {
+	height: 100px;
+}
+header h1{
+	float: left;
+	color: #994300;
+	font-family: "Montserrat";
+	font-size: 30px;
+	margin-top: 40px; 
+}
+header img{
+	width: 40px;
+	height: 40px;
+	margin-top: 30px;
+	float: right;
+	padding: 5px;
+}
+header input{
+	border: 1px solid #994d00;
+	border-radius: 5px;
+	margin-left: 100px;
+	margin-top:40px;
+	padding: 8px;
+}
+header a{
+	border: 1px solid #994d00;
+	border-radius: 5px;
+	padding: 8px 20px 8px 20px;
+	text-decoration: none;
+	background-color: #fff;
+}
+header a:hover{
+	background-color: #994d00;
+	color: #fff;
+	font-weight: bold;
+	transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+nav{
+	background-color: #994d00;
+	height: 40px; 
+}
+nav a{
+	display: inline-block;
+	width: 140px;
+	padding: opx 5px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+nav a:hover{
+	background-color: #331a00;
+	border-radius: 5px;
+	transition: 1s;
+}
+article{
+	float: left;
+	width: 700px;
+	padding: 0px 10px 10px 10px;
+}
+article h2{
+	color: #cc7a00;
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+}
+article figure{
+	float: left;
+	margin: 1px;
+	width: 150px;
+	height: auto;
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #ccc;
+	border-bottom: 5px solid #994d00;
+	background-color: #f7eded;
+}
+figure img{
+	width: 150px;
+	height: 150px;
+	transition: transform .8s ease-in-out;
+}
+img:hover{
+	transform: rotate(360deg);
+}
+figure h3{
+	color: #cc7a00;
+}
+figcaption{
+	font-size: 90%;
+	text-align: left;
+	line-height: 1.5em;
+	color: #993300;
+}
+section{
+	width: 200px;
+	float: right;
+	color: #fff;
+}
+#most img{
+	width: 90px;
+	height: 90px;
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+#most figure{
+	width: 168px;
+	height: 160px;
+	padding: 0px 10px;
+	margin: 2px 5px;
+	border: 1px solid #ccc;
+	background-color: #f7eded;
+}
+#most h3{
+	text-align: center;
+	background-color: #804000;
+	padding: 5px;
+	margin: 5px;
+}
+#most h4{
+	color: #cc7a00;
+}
+footer{
+	clear: both;
+	padding: 50px;
+	background-color: #994d00;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+}
+.aktif{
+	background-color: #331a00;
+}
+#social img{
+	width: 30px;
+	height: 30px;
+}
+#bank img{
+	width: 45px;
+	height: 30px;
+}
